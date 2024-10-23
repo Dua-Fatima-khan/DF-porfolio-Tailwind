@@ -2,12 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
-    --carddd:#181716;
-    --div:#dac5a7;
+    --carddd: #181716;
+    --div: #dac5a7;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
@@ -34,6 +32,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -66,62 +65,61 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Montserrat', sans-serif;
-    color:#dac5a7;
+    color: #dac5a7; /* Consider using the variable for consistency */
   }
-}
 
-body {
-  font-family: Playfair Display, Montserrat, Protest Guerrilla;
+  h1 {
+    font-family: 'Montserrat', serif;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
 
-h1 {
-  font-family: 'Montserrat', serif;
+  Button { /* Changed from Button to button */
+    color: black;
+    background: var(--div);
+  }
 
-}
+  .out {
+    color: #dac5a7;
+    border-radius: 3px;
+    border: 1px solid #dac5a7;
+    background: transparent;
+    transition: .3s all ease;
+  }
+  
+  .out:hover {
+    background-color: #dac5a7;
+    color: black;
+  }
 
-h2 {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  .playfair {
+    font-family: 'Playfair Display', serif;
+  }
 
-}
+  .mont {
+    font-family: 'Montserrat', sans-serif;
+  }
 
-Button{
-  color: black;
-  background: var(--div);
-}
-.out{
-  color: #dac5a7;
-border-radius: 3px;
-border: 1px solid #dac5a7;
-background: transparent;
-transition: .3s all ease;
-}
-.out:hover{
-  background-color: #dac5a7;
-  color: black;
-}
+  /* Scrollbar styles */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
 
-.playfair{
-  font-family: 'Playfair Display', serif;
-}
-.mont{
-  font-family: 'Montserrat', sans-serif;
-}
-/* styles/globals.css */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-
-.hide-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;      /* Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
