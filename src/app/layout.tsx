@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${playfair.className} ${montserrat.className} `}
       >
-        <Header />
+        <Header/>
         {children}
         <FOOTER/>
       </body>
