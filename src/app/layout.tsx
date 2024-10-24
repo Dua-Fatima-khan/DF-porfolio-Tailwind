@@ -1,21 +1,27 @@
 // src/app/layout.tsx
 
 import type { Metadata } from "next";
-import { Playfair_Display, Montserrat } from '@next/font/google';
+import { Playfair_Display, Montserrat } from "next/font/google";
 import Header from "@/components/HEADER";
 import "./globals.css"; // Ensure this file exists and is set up correctly
 import FOOTER from "@/components/FOOTER";
 
-// Correctly use 'weight' instead of 'weights'
-const playfair = Playfair_Display({
+// Correctly specify weights
+const playfairNormal = Playfair_Display({
   subsets: ['latin'],
-  weight: ['400', '700'], // Use 'weight' (singular) with an array
-  style: ['normal', 'italic'], // Style can be specified here
+  weight: '400', // Use a single weight
+  style: 'normal', // Specify normal style
+});
+
+const playfairItalic = Playfair_Display({
+  subsets: ['latin'],
+  weight: '700', // Use a single weight
+  style: 'italic', // Specify italic style
 });
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '700'], // Use 'weight' (singular) with an array
+  weight: '400', // Use a single weight
 });
 
 export const metadata: Metadata = {
@@ -30,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfair.className} ${montserrat.className}`}>
+      <body className={`${playfairNormal.className} ${playfairItalic.className} ${montserrat.className}`}>
         <Header />
         {children}
         <FOOTER />
