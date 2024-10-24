@@ -1,5 +1,6 @@
 import { serviceDetails } from "@/app/data/details"
 import { Button } from "./ui/button"
+import Link from "next/link"
 export default function CARD(){
     return (
         serviceDetails.map((service) => (
@@ -7,7 +8,7 @@ export default function CARD(){
             <p>{service.id}</p>
             <h2 className="text-2xl playfair ">{service.title}</h2>
             <p className="mont">{service.description}</p>
-            <Button className="out">CONTACT ME</Button>
+           <Link href={'/contact'}> <Button className="out">CONTACT ME</Button></Link>
         </div>
         )))}
 

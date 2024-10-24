@@ -7,7 +7,7 @@ function ContactForm() {
     e.preventDefault();
 
     // Accessing the API URL from environment variables
-    const accessKey = process.env.NEXT_PUBLIC_API_URL; // Use the new variable
+    const accessKey = `154b68cf-15ec-4cbf-8140-069fa1c6e3d8` ; // Use the new variable
 
     if (!accessKey) {
       alert("Access key is not defined.");
