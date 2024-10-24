@@ -3,10 +3,10 @@ export default function Hero(){
      <section className="w-full h-[100vh] bg-black flex flex-col justify-center items-center 
     ">
         <h1 className=" 
-       text-center text-5xl
+       text-center text-5xl font-black
         sm:text-5xl
         md:text-7xl
-        lg:text-9xl
+        lg:text-8xl 
         ">Web Developer & </h1>
         <h2 className=" text-5xl
          sm:text-5xl

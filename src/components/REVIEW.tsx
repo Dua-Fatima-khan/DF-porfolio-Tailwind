@@ -21,9 +21,9 @@ export default function REVIEW() {
   return (
     <section className="pb-10 w-full flex flex-col bg-black gap-8">
       {/* Section Heading */}
-      <h1 className="text-5xl font-bold text-center italic text-div py-8">
+      <h2 className="text-5xl font-bold text-center italic text-div py-8">
         Reviews
-      </h1>
+      </h2>
 
       {/* Slick Slider for Reviews */}
       <div className="w-full flex justify-center  overflow-hidden">

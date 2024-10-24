@@ -44,9 +44,9 @@ export default function ProjectSlider() {
       <Slider {...settings} className="w-full max-w-3xl"> 
         {projects.map((project: Project) => (
           <div key={project.id} className=" gap-5 flex flex-col items-start bg-carddd flex-wrap p-5 rounded border border-div lg:w-[60vw] ">
-              <p>
+              <h2>
           {project.cat}
-          </p>
+          </h2>
           <div className="flex justify-center py-5  h-[450px] overflow-hidden ">
   <Image 
     src={project.image} 

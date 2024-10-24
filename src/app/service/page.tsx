@@ -24,7 +24,10 @@ export default function Page() {
   return (
     <section className="w-full bg-black overflow-x-hidden">
       <div className="w-full h-[100vh] flex justify-center items-center flex-col">
-        <h1 className="text-center text-5xl sm:text-5xl md:text-7xl lg:text-9xl">
+        <h1 className=" text-center text-5xl font-black
+        sm:text-5xl
+        md:text-7xl
+        lg:text-8xl ">
           Web <br /> Development
         </h1>
         <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-9xl"> & Design</h2>

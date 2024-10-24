@@ -4,9 +4,9 @@ export default function work(){
         <section className=" flex  flex-col items-center justify-center bg-black overflow-x-hidden">
 
 <div className="flex justify-center items-center flex-col p-10 gap-5 pt-20">
-<h1 className="  text-6xl  italic
+<h2 className="  text-6xl  italic
        
-      "> My Porjects</h1>
+      "> My Porjects</h2>
        <p> Some  of My latest projects</p>
 </div>
 
