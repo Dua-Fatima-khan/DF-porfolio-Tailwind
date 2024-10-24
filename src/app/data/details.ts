@@ -18,38 +18,49 @@ export  const serviceDetails=  [{
  } ]
 export const reviews=[{
    "id":'01',
-   "title":"Prof. Zia Shahzad", 
+   "title":"Prof. Zia Shahzad (client) ", 
    "description":"Dua Fatima is a highly skilled and dedicated software developer. Her technical proficiency in C and databases is remarkable, and she consistently goes beyond expectations to expand her knowledge. Dua excels at problem-solving, quickly identifying issues and providing efficient solutions. Her collaborative nature and strong work ethic make her a reliable and valuable team member.",
 },
 {
-   "id": '02',
+  "id": '02', 
+  title:'Ms. Ramsha Noshad (client)',
+  description:"Thank you, Dua Fatima, for the exceptional work on my design. Your creativity and professionalism truly stand out. The layout is visually appealing, and the design elements reflect a high level of expertise. I’m particularly impressed with how you balanced aesthetics with clarity, ensuring that it is both attractive and easy to read. Your attention to detail and dedication to delivering a high-quality result is greatly appreciated. You're a talented graphic designer, and I look forward to working with you again in the future!",
+},
+{
+  "id": '03',
+  title:'Mr. Abid Ali (client)',
+  description:"Dua Fatima has excelled as a frontend developer, skillfully translating complex requirements into user-friendly interfaces. Her keen eye for design and technical expertise ensure that her applications are both functional and visually appealing. Dua is committed to continuous learning, keeping up with the latest frontend technologies. Her proficiency in HTML, CSS, and JavaScript helps maintain high-quality code standards. Notably, her problem-solving skills allow her to quickly diagnose issues and develop effective solutions, streamlining our development processes and enhancing project efficiency.",
+},
+{
+   "id": '04',
    title:'Ms. Saba Nizam',
    description:"I'm thoroughly impressed with Dua Fatima exceptional coding skills! She delivered an outstanding project, exceeding my expectations, and completed it well ahead of schedule. Her efficiency, creativity, and attention to detail are truly inspiring. You are a talented developer who understands the client's needs and delivers high-quality results. Highly recommended!",
 },
 {
-   "id": '03',
+   "id": '05',
    title:'Ms. Sumbul Khan',
    description:"Dua Fatima is an exceptional web developer! Delivers high-quality work, exceeding expectations. Highly recommended!, 5/5 stars!",
 },
+
 {
-   "id": '04',
-   title:'Ms. Ramsha Noshad',
-   description:"Thank you, Dua Fatima, for the exceptional work on my design. Your creativity and professionalism truly stand out. The layout is visually appealing, and the design elements reflect a high level of expertise. I’m particularly impressed with how you balanced aesthetics with clarity, ensuring that it is both attractive and easy to read. Your attention to detail and dedication to delivering a high-quality result is greatly appreciated. You're a talented graphic designer, and I look forward to working with you again in the future!",
-},
-{
-   "id": '05',
+   "id": '06',
    title:'Ms. Tabassum Naz',
    description:"I am genuinely impressed by Dua Fatima's exceptional coding skills! She delivered an outstanding project that exceeded my expectations and was completed ahead of schedule. Her efficiency, creativity, and attention to detail are commendable. If you're looking for a talented developer who understands client needs, I highly recommend Dua Fatima as an invaluable asset in the tech field!",
 },
 {
-   "id": '06',
+   "id": '07',
    title:'Ms. Umm-e-Hani Khan',
    description:"Fatima is an exceptional web developer who delivered a visually stunning, responsive website for my project. She understood my requirements perfectly and turned them into a user-friendly, polished website. Her communication and attention to detail were impressive, and she was always open to feedback. I highly recommend her for any web development needs.",
 },
 {
-   "id": '07',
+   "id": '08',
    title:'Ms. Tabya Khan',
    description:"Dua is an amazing web developer! She did a fantastic job on my website, listening to what I needed and delivering exactly that. She's professional, easy to work with, and really knows her stuff. I'm so happy with the result and highly recommend her to anyone who needs a great website!",
+},
+{
+  "id": '09',
+  title:'Ms. Yusra Khan',
+  description:"I am truly amazed by Dua Fatima's coding abilities. She completed an impressive project that not only met but surpassed my expectations, and she did it well ahead of the deadline. Her creativity, efficiency, and meticulous attention to detail are remarkable. I highly recommend her for any development work!",
 },
 
 ]

@@ -14,7 +14,7 @@ export default function Header() {
 
     return (
         <nav className="flex justify-between items-center h-20 px-20 w-full bg-[#131313] fixed top-0 left-0 z-50">
-            <h2 className="logo text-4xl font-black text-div ">DF.</h2>
+   <Link href={'/'}>         <h2 className="logo text-4xl font-black text-div ">DF.</h2></Link>
 
             {/* Desktop menu */}
             <ul className={`hidden md:flex justify-center items-center gap-10 uppercase text-div`}>
