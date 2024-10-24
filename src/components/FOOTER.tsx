@@ -15,7 +15,7 @@ export default function FOOTER(){
      <h2 className="w-full text-center text-3xl font-bold py-5">Follow me on</h2>
      <div className=" flex justify-center items-center gap-10 flex-wrap">
         <div className="flex flex-col justify-center items-center">
-            <div ><Image src={'/linkedin.png'} alt="linkedin" width={70} height={100} /></div>
+            <div ><Image src={'/linked.png'} alt="linkedin" width={70} height={100} /></div>
             <h2 className="text-2xl">Linkedin</h2>
             <Link href={'https://www.linkedin.com/in/dua-fatima-%E2%9C%A8%F0%9F%87%B5%F0%9F%87%B8-906208258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'}> <Button>Follow</Button></Link>
         </div>
