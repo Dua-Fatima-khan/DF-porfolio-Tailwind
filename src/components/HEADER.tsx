@@ -54,7 +54,9 @@ export default function Header() {
                         <li onClick={toggleMenu}>
                             <Link href="/work">Work</Link>
                         </li>
-                     
+                        <li onClick={toggleMenu}>
+                        <Link href={'/contact'}>HIRE ME</Link>
+                        </li>
                     
                     </ul>
                 </div>
